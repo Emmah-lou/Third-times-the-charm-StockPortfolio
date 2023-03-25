@@ -1,0 +1,86 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin: 2rem 0;
+  color: #007bff;
+}
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.container table thead tr {
+  background-color: #007bff;
+  color: #f8f9fa;
+}
+.container table thead tr th {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+}
+.container table tbody tr {
+  background-color: #f8f9fa;
+}
+.container table tbody tr td {
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+}
+.container table tbody tr td input[type=number] {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #6c757d;
+}
+.container table tbody tr td input[type=number]:focus {
+  outline: none;
+}
+.container table tbody tr:hover {
+  background-color: #fff;
+}
+.container table tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+.container form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.container form input[type=text], .container form input[type=number] {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  color: #6c757d;
+}
+.container form input[type=text]:focus, .container form input[type=number]:focus {
+  outline: none;
+}
+.container form .btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+}
+.container form .btn-primary:hover {
+  background-color: #0062cc;
+}
+.container .col-12 {
+  margin-bottom: 2rem;
+}
+.container .mb-3 {
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=style.css.map */
